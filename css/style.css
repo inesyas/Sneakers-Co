@@ -26,7 +26,7 @@ html {
 	text-transform: uppercase;
 	color: #383838;
 	margin-bottom: 1px;
-	margin-top: 35px;
+	margin-top: 15px;
 }
 .section-title span.subtitle {
 	font-size: 16px;
@@ -64,7 +64,7 @@ html {
 }
 
 body {
-	font-family: "Rubik", sans-serif;
+	font-family: "Roboto";
 	font-size: 16px;
 	margin: 0;
 	color: #111705;
@@ -87,12 +87,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Rubik", sans-serif;
+	font-family: "Roboto";
 }
 
 p {
 	line-height: 1.6;
-	font-family: "Rubik", sans-serif;
+	font-family: "Roboto";
 }
 
 a {
@@ -436,4 +436,51 @@ ul {
   .imagecontact {
 	  width: 2000px;
 	  margin-top: 0px;
+  }
+
+  footer {
+	padding: 10px 20px;
+	background: rgb(202, 200, 200);
+	color: white;
+  }
+  
+  .flex {
+	display: flex;
+	font-family:'Roboto'; 
+	font-size: BOLD;
+	color: black;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .column {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .start {
+  text-align: start;
+  }
+  .middle {
+  text-align: center;
+  }
+  .end {
+  text-align: end;
+  }
+
+  .topnav-right a {
+	float: left;
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	justify-content: flex-end;
+  }
+  
+  .topnav-right a:hover {
+	background-color: #ddd;
+	color: black;
   }
